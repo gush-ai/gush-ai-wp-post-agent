@@ -1,0 +1,1 @@
+# File: wp-ai-generator/tests/TestCase.php <?php use PHPUnit\Framework\TestCase; class WP_AI_Generator_TestCase extends TestCase { }
