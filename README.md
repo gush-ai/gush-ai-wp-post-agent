@@ -185,3 +185,55 @@ To become a contributor:
 We follow the [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/) and encourage you to do the same.
 
 Thank you for your interest in contributing to WP AI Generator!
+# File: README.md
+## API Providers
+
+The plugin supports multiple AI providers. Currently supported:
+- OpenAI
+- Cohere
+- Hugging Face
+- Gush-ai (ai.sstore.ng/doc)
+- Google Gemini
+- OpenRouter
+
+## Gush-ai API Documentation
+
+For detailed documentation on the Gush-ai API, please visit:
+https://ai.sstore.ng/doc
+
+The Gush-ai API provides several endpoints for content generation:
+
+1. `/generate-content` - Main content generation endpoint
+2. `/models` - List available models
+3. `/usage` - Check API usage statistics
+4. `/models/gemini` - Google Gemini specific endpoint
+5. `/models/openrouter` - OpenRouter specific endpoint
+
+### API Key Management
+
+1. Go to Settings > AI Generator
+2. Enter your Gush-ai API key
+3. Select your preferred model from the available options
+
+### Model Selection
+
+The plugin automatically detects available models from your API key. You can:
+- Choose the default model in settings
+- Select a different model for each generation request
+- View model capabilities and limitations
+
+### Rate Limits
+
+Be aware of rate limits when using the API:
+- Free tier: 100 requests/day
+- Pro tier: 1000 requests/day
+- Enterprise: Custom limits
+
+### Error Handling
+
+The plugin handles common API errors gracefully, but you may see:
+- 401: Invalid API key
+- 429: Rate limit exceeded
+- 500: Server error
+
+For more detailed error information, check the plugin logs.
