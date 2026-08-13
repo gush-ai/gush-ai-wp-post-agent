@@ -1,0 +1,14 @@
+# File: wp-ai-generator/composer.json
+{
+    "name": "gush-ai/wp-ai-generator",
+    "description": "A WordPress plugin to generate content using AI",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "WP_AI_Generator\\": "includes/"
+        }
+    }
+}
