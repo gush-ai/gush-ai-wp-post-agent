@@ -7,7 +7,7 @@
   "author": "Developer",
   "license": "MIT",
   "generated_by": "Gush AI Codex V10.5",
-  "generated_at": "2026-08-13T06:26:13.518Z",
+  "generated_at": "2026-08-13T06:29:45.807Z",
   "files": [
     "wp-ai-generator/wp-ai-generator.php",
     "wp-ai-generator/includes/class-wp-ai-generator.php",
@@ -24,6 +24,7 @@
     "wp-ai-generator/tests/bootstrap.php",
     "wp-ai-generator/tests/TestCase.php",
     "gush-project.json",
-    ".gitignore"
+    ".gitignore",
+    "README.md"
   ]
 }
