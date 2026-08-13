@@ -1,0 +1,29 @@
+{
+  "name": "gush-ai-wp-post-agent",
+  "display_name": "Gush-ai-Wp-post-agent",
+  "type": "php-api",
+  "version": "1.0.0",
+  "description": "New project",
+  "author": "Developer",
+  "license": "MIT",
+  "generated_by": "Gush AI Codex V10.5",
+  "generated_at": "2026-08-13T06:26:13.518Z",
+  "files": [
+    "wp-ai-generator/wp-ai-generator.php",
+    "wp-ai-generator/includes/class-wp-ai-generator.php",
+    "wp-ai-generator/templates/admin-page.php",
+    "wp-ai-generator/assets/js/admin.js",
+    "wp-ai-generator/includes/class-wp-ai-generator-ajax.php",
+    "wp-ai-generator/includes/class-wp-ai-generator-activator.php",
+    "wp-ai-generator/includes/class-wp-ai-generator-deactivator.php",
+    "wp-ai-generator/uninstall.php",
+    "wp-ai-generator/composer.json",
+    "wp-ai-generator/README.md",
+    "wp-ai-generator/.github/workflows/main.yml",
+    "wp-ai-generator/phpunit.xml",
+    "wp-ai-generator/tests/bootstrap.php",
+    "wp-ai-generator/tests/TestCase.php",
+    "gush-project.json",
+    ".gitignore"
+  ]
+}
